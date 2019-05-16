@@ -2,7 +2,7 @@
 #source("http://bioconductor.org/biocLite.R")
 #biocLite("EBImage")
 require(EBImage)
-setwd("C:/Users/cra987/Dropbox/Data Projects/CarImage Classification/BMW")
+setwd("C:/Users/")
 imgcol = readImage("p90081936.jpg")
 display(imgcol)
 logo_label = watershed(imgcol)
